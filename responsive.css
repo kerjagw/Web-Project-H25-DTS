@@ -1,0 +1,92 @@
+    /* Tablet*/
+    /*maximum width = 1000px*/
+    
+    @media all and (max-width: 1000px) {
+        /*ekstra1*/
+        .ekstra1-container {
+            padding: 200px 30px 0 100px;
+        }
+        .ekstra1-container h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        .icon-wrap {
+            padding-top: 65px;
+            width: 100%;
+            text-align: center;
+        }
+        .icon {
+            height: 40px;
+        }
+        .html {
+            margin-right: 150px;
+        }
+        .css {
+            margin-right: 150px;
+        }
+        /*ekstra2*/
+        .profil-container {
+            width: 75%;
+            text-align: center;
+            margin-left: 30px;
+        }
+        .pictures {
+            margin: 30px 15px 30px 55px;
+        }
+        .profil {
+            height: 1000px;
+        }
+        .ekstra2 {
+            height: 450px;
+            width: 100%;
+            background-size: cover;
+        }
+    }
+    /*Tablet(2)*/
+    /*Maximum width= 840px*/
+    
+    @media all and (max-width: 840px) {
+        /*ekstra1-opening*/
+        .ekstra1-container {
+            padding: 150px 20px 0 20px;
+            text-align: center;
+        }
+        .ekstra1-container h2 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .icon-wrap {
+            padding-top: 65px;
+            width: 100%;
+            text-align: center;
+        }
+        .icon {
+            height: 40px;
+        }
+        .html {
+            margin-right: 150px;
+        }
+        .css {
+            margin-right: 150px;
+        }
+        /*ekstra2-profile*/
+        .profil-container {
+            margin-left: 25px;
+        }
+        .profil-container h2 {
+            width: 100 %;
+            text-align: center;
+        }
+        .pictures {
+            margin: 10px 15px 10px 15px;
+            flex-direction: column;
+        }
+        .profil {
+            height: 930px;
+        }
+        .ekstra2 {
+            height: 450px;
+            width: 100%;
+            background-size: cover;
+        }
+    }
